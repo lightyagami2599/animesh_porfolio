@@ -10,7 +10,7 @@ const About: React.FC<AboutProps> = ({ isFullPage = false }) => {
     // Create a link to download the CV
     const link = document.createElement('a');
     link.href = '/assets/CV.pdf';
-    link.download = 'animesh-jena-cv.pdf';
+    link.download = 'bhumika-vishwakarma-cv.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -20,7 +20,7 @@ const About: React.FC<AboutProps> = ({ isFullPage = false }) => {
     // Create a link to download the portfolio
     const link = document.createElement('a');
     link.href = '/assets/portfolio.pdf';
-    link.download = 'animesh-jena-portfolio.pdf';
+    link.download = 'bhumika-vishwakarma-portfolio.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -8,10 +8,10 @@ interface EducationProps {
 
 const educationItems: EducationItem[] = [
   {
-    school: 'St Antony School',
-    degree: 'ICSE',
-    period: '2009 - 2021',
-    description: 'Completed ICSE education with excellent academic achievements and participated in various extracurricular activities.',
+    school: 'Kendriya Vidyalaya',
+    degree: 'CBSE',
+    period: '2007 - 2019',
+    description: 'Completed CBSE education with excellent academic achievements and participated in various extracurricular activities.',
   },
   {
     school: 'Parul University',

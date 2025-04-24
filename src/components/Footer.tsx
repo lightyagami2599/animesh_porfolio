@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Animesh<span className="text-primary">_Portfolio</span></h3>
+            <h3 className="text-xl font-bold mb-4">Bhumika<span className="text-primary">_Portfolio</span></h3>
             <p className="text-gray-300 mb-4">Creating spaces that inspire, connect, and transform.</p>
             <div className="flex space-x-4">
               <a href="https://github.com" className="text-gray-300 hover:text-primary transition-colors">
@@ -41,14 +41,14 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-gray-300">
               <li>Parul University</li>
               <li>Vadodara, Gujarat</li>
-              <li>jenaanimesh2002@gmail.com</li>
-              <li>+91 9556498920</li>
+              <li>bhumikavishwakarma123@gmail.com</li>
+              <li>+91 - 88713 45326</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400">
-          <p>&copy; {currentYear} Animesh Jena. All rights reserved.</p>
+          <p>&copy; {currentYear} Bhumika Vishwakarma. All rights reserved.</p>
         </div>
       </div>
     </footer>
