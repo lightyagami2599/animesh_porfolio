@@ -19,7 +19,7 @@ const About: React.FC<AboutProps> = ({ isFullPage = false }) => {
   const handleDownloadPortfolio = () => {
     // Create a link to download the portfolio
     const link = document.createElement('a');
-    link.href = '/assets/portfolio.pdf';
+    link.href = '/assets/Animehsh portfolio (003)pdf';
     link.download = 'Animesh Jena-portfolio.pdf';
     document.body.appendChild(link);
     link.click();
@@ -68,7 +68,7 @@ const About: React.FC<AboutProps> = ({ isFullPage = false }) => {
           <div className={`${isFullPage ? 'order-2' : 'order-1'}`}>
             <div className="rounded-lg overflow-hidden shadow-xl transform transition-transform hover:scale-[1.02]">
               {<img 
-                src="/assets/profile.jpg" 
+                src="/assets/profilee.jpg" 
                 alt="ANIMESH JENA" 
                 className="w-full h-auto object-cover"
                 />
