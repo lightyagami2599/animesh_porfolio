@@ -4,7 +4,7 @@ const VideoSection: React.FC = () => {
   return (
     <section className="bg-white section-padding">
       <div className="container">
-        <h2 className="section-title text-center mb-12">Featured Work</h2>
+        <h2 className="section-title text-center mb-12">FEATURED WORK</h2>
         
         <div className="max-w-4xl mx-auto">
           <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
