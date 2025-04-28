@@ -10,15 +10,22 @@ const educationItems: EducationItem[] = [
   {
     school: 'St Antony School',
     degree: 'ICSE',
-    period: '2009 - 2021',
+    period: '2009 - 2019',
     description: 'Completed ICSE education with excellent academic achievements and participated in various extracurricular activities.',
   },
+  {
+    school: 'D.U Public School',
+    degree: 'CBSE',
+    period: '2020 - 2022',
+    description: 'Completed CBSE education with excellent academic achievements and participated in various extracurricular activities.',
+  },
+
   {
     school: 'Parul University',
     degree: 'Bachelor of Architecture (B.Arch)',
     period: '2022 - Present',
     description: 'Currently pursuing a Bachelor of Architecture degree with focus on sustainable design and modern architectural practices.',
-  },
+  }
 ];
 
 const Education: React.FC<EducationProps> = ({ isFullPage = false }) => {
