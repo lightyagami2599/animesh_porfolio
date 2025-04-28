@@ -35,10 +35,10 @@ const Hero: React.FC = () => {
       >
         <div className="mx-auto max-w-3xl">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-            Animesh Jena
+            ANIMESH JENA
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 mb-8">
-            Architecture Portfolio
+            ARCHITECTURE PORTFOLIO
           </p>
           <a 
             href="#about"
