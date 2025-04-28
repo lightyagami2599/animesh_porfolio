@@ -31,7 +31,7 @@ const About: React.FC<AboutProps> = ({ isFullPage = false }) => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className={`${isFullPage ? 'order-1' : 'order-2'}`}>
-            <h2 className="section-title">About Me</h2>
+            <h2 className="section-title">ABOUT ME</h2>
             <p className="text-gray-700 mb-6">
               Passionate architecture student with a keen eye for sustainable design. Blending modern aesthetics with functionality to create spaces that inspire and endure.
             </p>
