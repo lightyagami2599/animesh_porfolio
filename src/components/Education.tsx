@@ -25,7 +25,7 @@ const Education: React.FC<EducationProps> = ({ isFullPage = false }) => {
   return (
     <section id="education" className={`bg-gray-50 ${isFullPage ? 'pt-28' : ''} section-padding`}>
       <div className="container">
-        <h2 className="section-title text-center mb-12">Education</h2>
+        <h2 className="section-title text-center mb-12">EDUCATION</h2>
         
         <div className="max-w-3xl mx-auto">
           <div className="relative">
